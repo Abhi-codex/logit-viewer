@@ -328,7 +328,17 @@ const server = createLogitServer({
                 </div>
 
                 <div>
-                  <span style={{ fontSize: '0.75rem', fontWeight: 700, display: 'block', marginBottom: '6px', textTransform: 'uppercase', color: 'var(--primary)' }}>1. Client Initialization</span>
+                  <span style={{ fontSize: '0.75rem', fontWeight: 700, display: 'block', marginBottom: '6px', textTransform: 'uppercase', color: 'var(--primary)' }}>1. Install the SDK package</span>
+                  <div style={{ display: 'flex', alignItems: 'center', background: 'var(--bg-code)', padding: '10px', borderRadius: '6px', border: '1px solid var(--border-color)', fontSize: '0.8rem' }}>
+                    <code style={{ flex: 1, fontFamily: 'monospace', color: 'var(--text-primary)' }}>npm install logit-logger</code>
+                    <button onClick={() => copyToClipboard('npm install logit-logger', 'cb-f1')} style={{ background: 'none', border: 'none', color: 'var(--primary)', cursor: 'pointer' }}>
+                      {copiedText === 'cb-f1' ? <Check size={14} /> : <Copy size={14} />}
+                    </button>
+                  </div>
+                </div>
+
+                <div>
+                  <span style={{ fontSize: '0.75rem', fontWeight: 700, display: 'block', marginBottom: '6px', textTransform: 'uppercase', color: 'var(--primary)' }}>2. Client Initialization</span>
                   <div style={{ position: 'relative', background: 'var(--bg-code)', padding: '12px', borderRadius: '6px', border: '1px solid var(--border-color)', fontSize: '0.75rem' }}>
                     <button onClick={() => copyToClipboard(`import { LogitClient } from 'logit-logger';\n\nconst logit = new LogitClient({\n  serverUrl: 'http://localhost:4000',\n  ingestKey: 'secret_ingest_key',\n  appName: 'e-commerce-portal',\n  matchId: 'session_v1_operator_22',\n  captureConsole: true,\n  captureErrors: true,\n  batchIntervalMs: 3000,\n  maxBatchSize: 20,\n  debug: false\n});`, 'cb-f2')} style={{ position: 'absolute', right: '10px', top: '10px', background: 'none', border: 'none', color: 'var(--primary)', cursor: 'pointer', zIndex: 10 }}>
                       {copiedText === 'cb-f2' ? <Check size={14} /> : <Copy size={14} />}
@@ -352,7 +362,7 @@ const logit = new LogitClient({
                 </div>
 
                 <div>
-                  <span style={{ fontSize: '0.75rem', fontWeight: 700, display: 'block', marginBottom: '6px', textTransform: 'uppercase', color: 'var(--primary)' }}>2. SDK Logging API</span>
+                  <span style={{ fontSize: '0.75rem', fontWeight: 700, display: 'block', marginBottom: '6px', textTransform: 'uppercase', color: 'var(--primary)' }}>3. SDK Logging API</span>
                   <div style={{ background: 'var(--bg-section)', padding: '14px', borderRadius: '8px', border: '1px solid var(--border-color)', fontSize: '0.75rem', display: 'flex', flexDirection: 'column', gap: '10px' }}>
                     <div>
                       <strong>Explicit Log Calls:</strong>
