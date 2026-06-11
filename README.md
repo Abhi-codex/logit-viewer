@@ -3,6 +3,7 @@
 The official dashboard and presentation portal for the **Logit** logging ecosystem. Logit Viewer runs as a dual-compatible application (both in modern Web browsers and as a standalone desktop application via Electron).
 
 🔗 **Quick Links:**
+- **Live Hosted Dashboard (Logit Viewer)**: [https://logit-viewer.vercel.app](https://logit-viewer.vercel.app)
 - **GitHub Repository**: [https://github.com/Abhi-codex/logit-viewer](https://github.com/Abhi-codex/logit-viewer)
 - **LinkedIn Profile**: [http://in.linkedin.com/in/abhey-tyagi-4aa136264](http://in.linkedin.com/in/abhey-tyagi-4aa136264)
 - **NPM Package**: [https://www.npmjs.com/package/logit-logger](https://www.npmjs.com/package/logit-logger)

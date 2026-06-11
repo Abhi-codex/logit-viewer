@@ -10,7 +10,7 @@
   "bugs": {
     "url": "https://github.com/Abhi-codex/logit-viewer/issues"
   },
-  "homepage": "https://github.com/Abhi-codex/logit-viewer#readme",
+  "homepage": "https://logit-viewer.vercel.app",
   "type": "module",
   "main": "main.cjs",
   "scripts": {
