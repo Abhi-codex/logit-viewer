@@ -2,6 +2,11 @@
 
 The official dashboard and presentation portal for the **Logit** logging ecosystem. Logit Viewer runs as a dual-compatible application (both in modern Web browsers and as a standalone desktop application via Electron).
 
+🔗 **Quick Links:**
+- **GitHub Repository**: [https://github.com/Abhi-codex/logit-viewer](https://github.com/Abhi-codex/logit-viewer)
+- **LinkedIn Profile**: [http://in.linkedin.com/in/abhey-tyagi-4aa136264](http://in.linkedin.com/in/abhey-tyagi-4aa136264)
+- **NPM Package**: [https://www.npmjs.com/package/logit-logger](https://www.npmjs.com/package/logit-logger)
+
 ## Features
 
 - **Premium Presentation Landing Page**: Interactive console live-feed mockup showing simulated logs, detailed installation documentation for frontend/backend pipelines, and authorized connection handshake controls.

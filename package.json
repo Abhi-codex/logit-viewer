@@ -2,6 +2,15 @@
   "name": "log-viewer-app",
   "private": true,
   "version": "0.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhi-codex/logit-viewer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Abhi-codex/logit-viewer/issues"
+  },
+  "homepage": "https://github.com/Abhi-codex/logit-viewer#readme",
   "type": "module",
   "main": "main.cjs",
   "scripts": {
@@ -12,6 +21,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "logit-logger": "^1.0.2",
     "lucide-react": "^1.16.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
